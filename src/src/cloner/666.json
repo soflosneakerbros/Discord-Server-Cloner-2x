@@ -1,1 +1,160 @@
-
+{
+    "name": "JustBCause",
+    "verificationLevel": "NONE",
+    "explicitContentFilter": "DISABLED",
+    "defaultMessageNotifications": "ALL_MESSAGES",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "Friends & Family",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "important",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Friends & Family",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66624",
+                                "deny": "805763089"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Friends & Family",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "379968",
+                                "deny": "805449745"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "checkouts",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Friends & Family",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "536972352",
+                                "deny": "268857361"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "cop-requests",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Friends & Family",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "shoe-calendar",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Friends & Family",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "64",
+                                "deny": "805829649"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Voice Channels",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "Voice Chat",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Voice Channels",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "16",
+                                "deny": "834666497"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "others": []
+    },
+    "roles": [
+        {
+            "name": "Owner",
+            "color": "#e91e63",
+            "hoist": true,
+            "permissions": "8804648878079",
+            "mentionable": false,
+            "position": 2,
+            "isEveryone": false
+        },
+        {
+            "name": "Homies",
+            "color": "#f1c40f",
+            "hoist": true,
+            "permissions": "6513086016",
+            "mentionable": true,
+            "position": 1,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "559623572016705",
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1698122496418,
+    "guildID": "740446228961165442",
+    "id": "1166235020214534144",
+    "iconURL": "https://cdn.discordapp.com/icons/740446228961165442/b925972b7a45b64e6678917e5c254f22.webp"
+}
